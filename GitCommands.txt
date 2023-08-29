@@ -15,3 +15,5 @@ git remote add [remote_name] [remote_address] #将本地与远程仓库链接
 git remote rename [old_name] [new_name] #给远程改名
 
 git rm (--cache) [file_name] #如果没有--cache等于不追踪并删除文件，加上则等于单纯的不追踪
+
+test
