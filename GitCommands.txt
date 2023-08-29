@@ -15,3 +15,8 @@ git remote add [remote_name] [remote_address] #将本地与远程仓库链接
 git remote rename [old_name] [new_name] #给远程改名
 
 git rm (--cache) [file_name] #如果没有--cache等于不追踪并删除文件，加上则等于单纯的不追踪
+
+git branch --list #查看当前所属分支
+git branch [branch_name] #创建新分支
+git checkout (-b) [branch_name] #切换到指定分支(还可以恢复文件到该分支状态)，带-b等于新建个分支并切换
+git switch [branch_name] #切换到指定分支
