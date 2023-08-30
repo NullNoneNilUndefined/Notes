@@ -20,3 +20,5 @@ git branch --list #查看当前所属分支
 git branch [branch_name] #创建新分支
 git checkout (-b) [branch_name] #切换到指定分支(还可以恢复文件到该分支状态)，带-b等于新建个分支并切换
 git switch [branch_name] #切换到指定分支
+
+git merge [branch_name] #将指定分支的内容合并过来，如产生冲突需要解决冲突后add→commit
